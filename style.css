@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.lamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 1000px;
+}
+.lamp-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    /* color: white; */
+    cursor: pointer;
+}
+
+.lamp-active {
+    background-color: black;
+}
+.lamp-icon-active {
+    color: white;
+}
+.lamp button {
+    background-color: red;
+}
